@@ -1,3 +1,3 @@
 # aws-terraform-nodejs-app-sample
 
-# if installing the agents then be sure to update the license or api key respectively in the shell script
+Please remember to update the shell script with your respective key(s) when install one of the agents
