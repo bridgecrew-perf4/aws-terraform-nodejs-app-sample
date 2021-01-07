@@ -7,10 +7,11 @@ curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 sudo yum install -y nodejs npm
 sudo yum install git -y
 
-#create project directory and clone it then start it
+#create the project directory, clone it, then start the app
 cd ~
 git clone https://github.com/timmyb824/weather-app.git
 cd weather-app/
+npm install
 sudo npm install pm2 -g
 pm2 start server.js
 

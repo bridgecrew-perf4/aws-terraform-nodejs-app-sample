@@ -22,7 +22,7 @@ resource "aws_instance" "terraform-testing-tab" {
   user_data = file("userdata.sh")
   tags = {
     enviroment = "playground"
-    appid-or-sso = "timo8600"
+    appid-or-sso = var.sso
     needed-until-date = "2021-12-31"
     tag-std = "v1.0"
     terraform = "test-instance"
