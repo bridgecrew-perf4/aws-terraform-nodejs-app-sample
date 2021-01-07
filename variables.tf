@@ -1,3 +1,3 @@
-variable "appid-or-sso" {
+variable "sso" {
     default = "<ENTER YOUR VALUE HERE>"
 }
