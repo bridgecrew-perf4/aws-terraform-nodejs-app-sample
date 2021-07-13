@@ -18,7 +18,7 @@ provider "aws" {
 resource "aws_instance" "terraform-testing-tab" {
   ami           = "ami-04d29b6f966df1537"
   instance_type = "t2.small"
-  vpc_security_group_ids = [ "sg-0bd31de18bf04b40f" ]
+  vpc_security_group_ids = [ "ENTER VALUE HERE" ]
   user_data = file("userdata.sh")
   tags = {
     enviroment = "playground"
